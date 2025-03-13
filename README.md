@@ -5,7 +5,7 @@
 3. Использовал документацию Ansible (и stackoverflow).
 4. Проверил модуль локально (для проверки используем значения из файла для тестирования test_my_own_module.json )  
 -------
-python3 -m my_own_module test_my_own_module. json  
+python3 -m my_own_module test_my_own_module. json
 {"changed": false, "path": "", ""content": "", "invocation": {"module_args": {"path": "testfile.md", "content": "TIPOTOGO"}}}
 ------
 5. Добавил single task playbook c названием test_playbook.yml и содержимым :  
