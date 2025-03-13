@@ -5,11 +5,10 @@
 3. Использовал документацию Ansible (и stackoverflow).
 4. Проверил модуль локально (для проверки используем значения из файла для тестирования test_my_own_module.json )
    
-----------------------------------------
-> [!Bash]
+> [!NOTE]
 > 'python3 -m my_own_module test_my_own_module. json'
 > '{"changed": false, "path": "", ""content": "", "invocation": {"module_args": {"path": "testfile.md", "content": "TIPOTOGO"}}}'
------------------------------
+
 
 5. Добавил single task playbook c названием test_playbook.yml и содержимым :  
 ----
@@ -37,20 +36,20 @@
 	ansible-galaxy collection build
 14. Создал новую директорию test2 и перенёс туда playbook и архив коллекции.
 15. Установил коллекцию:  
----------------------
 
-ansible-galaxy collection install -p ansible_collections /test/my_own_collection/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud elk-1.0.0.tar.gz  
-Starting galaxy collection install process  
-[[WARNING]: The specified collections path '/home/testing/ansible/test2/ansible_collections' is not part of the  
-configured Ansible collections paths '/home/testing/.ansible/collections:/usr/share/ansible/collections'. The  
-installed collection will not be picked up in an Ansible run, unless within a playbook-adjacent collections  
-directory.  
-Process install dependency map  
-Starting collection install process  
-Installing 'my_own_namespace.yandex_cloud_elk:1.0.0' to '/home/testing/ansible/test2/ansible_collections/my_own_name  
-namespace/yandex_cloud_elk'  
-my_own_namespace.yandex_cloud_elk:1.0.0 was installed successfully  
 
+
+> ansible-galaxy collection install -p ansible_collections /test/my_own_collection/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud elk-1.0.0.tar.gz  
+> Starting galaxy collection install process  
+> [[WARNING]: The specified collections path '/home/testing/ansible/test2/ansible_collections' is not part of the  
+> configured Ansible collections paths '/home/testing/.ansible/collections:/usr/share/ansible/collections'. The  
+> installed collection will not be picked up in an Ansible run, unless within a playbook-adjacent collections  
+> directory.  
+> Process install dependency map  
+> Starting collection install process  
+> Installing 'my_own_namespace.yandex_cloud_elk:1.0.0' to '/home/testing/ansible/test2/ansible_collections/my_own_name  
+> namespace/yandex_cloud_elk'  
+> my_own_namespace.yandex_cloud_elk:1.0.0 was installed successfully 
 ---------------------
 16. Запустил ansible-playbook test_playbook.yml
 	**результат**
