@@ -22,6 +22,7 @@
       content: "Hello world!"  
 ---
 6. Запустил дважды:
+
 1.Первый проход
     
 ![pr1](https://github.com/user-attachments/assets/612ab151-aa38-4c8c-92c4-e7a227b2fc7f)
@@ -45,20 +46,27 @@
 15. Установил коллекцию:  
 
 > [!NOTE]
-> ansible-galaxy collection install -p ansible_collections /test/my_own_collection/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud elk-1.0.0.tar.gz  
+> **ansible-galaxy collection install -p ansible_collections /test/my_own_collection/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud elk-1.0.0.tar.gz**
 > 
-> Starting galaxy collection install process  
+> Starting galaxy collection install process
+>  
 > WARNING The specified collections path '/home/testing/ansible/test2/ansible_collections' is not part of the  
 > configured Ansible collections paths '/home/testing/.ansible/collections:/usr/share/ansible/collections'. The  
 > installed collection will not be picked up in an Ansible run, unless within a playbook-adjacent collections  
-> directory.  
-> Process install dependency map  
-> Starting collection install process  
+> directory.
+>   
+> Process install dependency map
+>  
+> Starting collection install process
+>   
 > Installing 'my_own_namespace.yandex_cloud_elk:1.0.0' to '/home/testing/ansible/test2/ansible_collections/my_own_name  
-> namespace/yandex_cloud_elk'  
+> namespace/yandex_cloud_elk'
+>   
 > my_own_namespace.yandex_cloud_elk:1.0.0 was installed successfully  
 ---------------------
 16. Запустил ansible-playbook test_playbook.yml
-	**результат**
-17. https://github.com/BelcEV1985/08_ansible_module_06
+
+![pr16](https://github.com/user-attachments/assets/1ef82799-b85e-4da1-b401-e4a2d2547387)
+
+18. https://github.com/BelcEV1985/08_ansible_module_06
 	tar.gz ссылка
