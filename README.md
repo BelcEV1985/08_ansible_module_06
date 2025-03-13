@@ -68,5 +68,5 @@
 
 ![pr16](https://github.com/user-attachments/assets/1ef82799-b85e-4da1-b401-e4a2d2547387)
 
-18. https://github.com/BelcEV1985/08_ansible_module_06
-	tar.gz ссылка
+17. [Ссылка на коллекцию](https://github.com/BelcEV1985/08_ansible_module_06)  
+    [Ссылка на архив](https://github.com/BelcEV1985/08_ansible_module_06/blob/main/my_own_namespace/yandex_cloud_elk/my_own_namespace-yandex_cloud_elk-1.0.0.tar.gz)
