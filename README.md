@@ -21,9 +21,16 @@
       path: './test.txt'  
       content: "Hello world!"  
 ---
-6. Запустил дважды  
-	1. **результат**
-	2. **результат**
+6. Запустил дважды^
+	1. Первый проход
+    
+![pr1](https://github.com/user-attachments/assets/612ab151-aa38-4c8c-92c4-e7a227b2fc7f)
+
+	2. Второй проход
+ 
+![pr2](https://github.com/user-attachments/assets/e2595019-32ab-445d-aaec-26db5b1ce9b5)
+
+
 7. Вышел используя **deactivate**
 8. Создал новую коллекцию   
 	ansible-galaxy collection init my_own_namespace.yandex_cloud_elk  
