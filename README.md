@@ -6,6 +6,7 @@
 4. Проверил модуль локально (для проверки используем значения из файла для тестирования test_my_own_module.json )
    
 ----------------------------------------
+> [!Bash]
 > 'python3 -m my_own_module test_my_own_module. json'
 > '{"changed": false, "path": "", ""content": "", "invocation": {"module_args": {"path": "testfile.md", "content": "TIPOTOGO"}}}'
 -----------------------------
